@@ -1,42 +1,64 @@
 body {
-    font-size: 1rem;
-    font-family: $font1;
-    font-size: 15px;
-    color: $text1;
-    background: $white;
-    font-weight: 400;
-    line-height: 1.8;
+  font-size: 14px;
+  font-family: $font1;
+  font-size: 15px;
+  color: $text1;
+  background: $white;
+  font-weight: 400;
+  line-height: 1.8;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: $title;
-    margin-bottom: 0;
-    font-family: $font2;
-    font-weight: 700;
-    letter-spacing: .05em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $title;
+  margin-bottom: 0;
+  font-family: $font2;
+  font-weight: 700;
+  letter-spacing: 0.05em;
 }
-h3, h4, h5, h6 {
-    font-weight: 500;
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .mb-30 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .mx-10 {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .main-content {
-    width: calc(100% - 300px);
-    margin-left: 300px;
-    min-height: 100vh;
-    position: relative;
+  width: calc(100% - 300px);
+  margin-left: 300px;
+  min-height: 100vh;
+  position: relative;
+  @include media-breakpoint-down(lg) {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+  }
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .main-wrapper {
-    position: relative;
+  position: relative;
+}
+.container {
+  @include media-breakpoint-down(lg) {
+    max-width: 100%;
+    padding: 0;
+  }
 }

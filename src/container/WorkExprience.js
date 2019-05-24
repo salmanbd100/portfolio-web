@@ -3,11 +3,12 @@ import { Timeline, List, Icon } from "antd";
 import { TitleBlock } from "../components";
 const kutumbitaData = [
   "Pixel perfect psd to React component conversion.",
+  "Using data from Rest api & manage local state with Redux.",
   "Fixing any UI related bug in admin dashboard."
 ];
 const easyclapData = [
   "Pixel perfect sketch to React component conversion.",
-  "Using data from rest api.",
+  "Using data from Rest api.",
   "Fixing any design related bug in existing project."
 ];
 const spondonData = [
@@ -64,7 +65,7 @@ function WorkExprience() {
           <SingleExprience
             link="https://www.easyclap.com/"
             companyName="Easyclap"
-            year="Dec 2017 - Jan 2018"
+            year="Dec 2017 - Jan 2019"
             data={easyclapData}
           />
         </Timeline.Item>

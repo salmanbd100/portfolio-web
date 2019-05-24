@@ -21,7 +21,7 @@ function Projects() {
     <div className="worker-exprience mb-30">
       <TitleBlock title="Projects" />
       <Row gutter={16}>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             name="EasyClap"
             logo="assets/images/easyclap.jpg"
@@ -30,7 +30,7 @@ function Projects() {
             contribution="100% sketch to react component conversion"
           />
         </Col>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             name="Kutumbita"
             logo="assets/images/kutumbita.png"
@@ -39,7 +39,7 @@ function Projects() {
             contribution="Work with react view layer and and get data from rest api"
           />
         </Col>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             // name="Pixel Store"
             logo="assets/images/pixelstore.png"
@@ -48,7 +48,7 @@ function Projects() {
             contribution="100% sketch to react component conversion"
           />
         </Col>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             name="Educare"
             logo="assets/images/educare.png"
@@ -57,7 +57,7 @@ function Projects() {
             contribution="100% sketch to react component conversion"
           />
         </Col>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             // name="Best Book"
             logo="assets/images/bestbook.png"
@@ -66,7 +66,7 @@ function Projects() {
             contribution="100% sketch to react component conversion"
           />
         </Col>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             name="Pixels"
             logo="assets/images/pixels.png"
@@ -75,7 +75,7 @@ function Projects() {
             contribution="100% sketch to react component conversion"
           />
         </Col>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             // name="Pixels"
             logo="assets/images/execution.png"
@@ -84,7 +84,7 @@ function Projects() {
             contribution="100% sketch to react component conversion"
           />
         </Col>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             // name="Pixels"
             logo="assets/images/bicycle.png"
@@ -93,7 +93,7 @@ function Projects() {
             contribution="100% sketch to react component conversion"
           />
         </Col>
-        <Col span={8}>
+        <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
             name="Zeplin"
             logo="assets/images/zeplin.png"

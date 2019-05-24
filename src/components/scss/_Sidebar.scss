@@ -40,6 +40,9 @@
       object-fit: cover;
     }
   }
+  @include media-breakpoint-down(lg) {
+    width: 250px;
+  }
   .bio {
     text-align: center;
     .name {
@@ -66,5 +69,15 @@
     border-radius: 5px;
     padding: 20px 10px;
     margin: 15px 0;
+    @include media-breakpoint-down(lg) {
+      font-size: 13px;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
