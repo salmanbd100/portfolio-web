@@ -1,0 +1,43 @@
+.main-sidebar {
+  background: $sidebar-bg;
+  padding: 50px 30px;
+  .ant-menu-inline,
+  .ant-menu-vertical,
+  .ant-menu-vertical-left {
+    border-right: 0;
+  }
+  .ant-menu {
+    background: $sidebar-bg;
+    width: 200px;
+    margin: auto;
+    .ant-menu-item {
+      text-align: center;
+      margin: 0;
+      &:after {
+        display: none;
+      }
+    }
+    .ant-menu-item-selected {
+        background: rgba($white, .8);
+    }
+  }
+  .ant-menu-submenu > .ant-menu {
+    background: $sidebar-bg;
+  }
+  min-height: 100vh;
+  width: 300px;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  .logo {
+    text-align: center;
+    padding: 15px;
+    .logo-img {
+      display: inline-block;
+      height: 150px;
+      border-radius: 50%;
+      object-position: center;
+      object-fit: cover;
+    }
+  }
+}

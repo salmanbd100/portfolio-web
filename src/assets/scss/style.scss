@@ -1,0 +1,20 @@
+/*
+	React QuickStart Package
+	Author: Salman Rahman
+	version: 1.0
+*/
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap-grid.scss';
+
+// General
+@import '../scss/general/Variables';
+@import '../scss/general/Mixin';
+@import '../scss/general/Reset';
+
+
+
+// Components
+@import '../../components/scss/Components';
+@import '../../container/scss/Container';
+
