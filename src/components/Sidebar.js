@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu } from "antd";
+import { Icon } from "antd";
 import { Link } from "react-router-dom";
 
 class Sidebar extends Component {
@@ -24,13 +24,19 @@ class Sidebar extends Component {
             />
           </Link>
         </div>
-        <h3 className="text">Salman Rahman</h3>
-        <h5 className="text">Frontend Web Developer</h5>
-        <p>
-          Sector #10, Road #5, House #7, Uttara, Dhaka. 01911921394
-          salman.bd100@gmail.com
-        </p>
-        <Menu
+        <div className="bio">
+          <h2 className="name">Salman Rahman</h2>
+          <h3 className="title">FrontEnd Developer</h3>
+        </div>
+        <div className="btn-group">
+          <a className="contact-btn" href="https://www.linkedin.com/in/salmanbd/" target="_blank" rel="noopener noreferrer">
+            <Icon type="linkedin" />
+          </a>
+          <a className="contact-btn" href="https://www.linkedin.com/in/salmanbd/" target="_blank" rel="noopener noreferrer">
+            <Icon type="github" />
+          </a>
+        </div>
+        {/* <Menu
           onClick={this.handleClick}
           mode="inline"
           selectedKeys={[this.state.current]}
@@ -43,8 +49,14 @@ class Sidebar extends Component {
           </Menu.Item>
           <Menu.Item key="3">Services</Menu.Item>
           <Menu.Item key="4">Skills</Menu.Item>
-        </Menu>
-        <p>© Copyright ©2019 All rights reserved |</p>
+        </Menu> */}
+        <div className="contact">
+        <p>
+            Sector#8, Uttara, Dhaka. <br /> 01911921394 <br/> salman.bd100@gmail.com
+          </p>
+        </div>
+        
+        <p>© Copyright ©2019 <br/> All rights reserved |</p>
       </div>
     );
   }

@@ -19,9 +19,17 @@ const spondonData = [
 function SingleExprience(props) {
   return (
     <div className="single-exprience">
-      <a target="_blank" href={props.link} className="company-name">
-        <h3>{props.companyName}</h3>
-      </a>
+      <div className="top-bar">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={props.link}
+          className="company-name"
+        >
+          <h3>{props.companyName}</h3>
+        </a>
+        <h4 className="year">{props.year}</h4>
+      </div>
       <h4>FrontEnd Developer</h4>
       <div className="responsiblities">
         <List
@@ -41,26 +49,30 @@ function SingleExprience(props) {
 function WorkExprience() {
   return (
     <div className="worker-exprience mb-30">
+      
       <TitleBlock title="Work Exprience" />
       <Timeline>
-        <Timeline.Item>
+        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
           <SingleExprience
             link="https://kutumbita.com/"
             companyName="Kutumbita"
+            year="Feb 2019 - Present"
             data={kutumbitaData}
           />
         </Timeline.Item>
-        <Timeline.Item>
+        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
           <SingleExprience
             link="https://www.easyclap.com/"
             companyName="Easyclap"
+            year="Dec 2017 - Jan 2018"
             data={easyclapData}
           />
         </Timeline.Item>
-        <Timeline.Item>
+        <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
           <SingleExprience
             link="http://spondonit.com/"
             companyName="Spondon It"
+            year="Sep 2016 - Nov 2017"
             data={spondonData}
           />
         </Timeline.Item>

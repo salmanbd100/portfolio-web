@@ -1,10 +1,10 @@
 import React from "react";
-import { Row, List, Col } from "antd";
+import { Row, Col } from "antd";
 import { TitleBlock } from "../components";
 
 function SingleProject(props) {
   return (
-    <a target="_blank" href={props.link} className="single-project">
+    <a target="_blank" rel="noopener noreferrer" href={props.link} className="single-project">
       <div className="project-name">
         <img src={props.logo} alt="" className="logo" />
         <h4 className="name">{props.name}</h4>

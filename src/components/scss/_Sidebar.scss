@@ -1,6 +1,6 @@
 .main-sidebar {
   background: $sidebar-bg;
-  padding: 50px 30px;
+  padding: 30px;
   .ant-menu-inline,
   .ant-menu-vertical,
   .ant-menu-vertical-left {
@@ -18,7 +18,7 @@
       }
     }
     .ant-menu-item-selected {
-        background: rgba($white, .8);
+      background: rgba($white, 0.8);
     }
   }
   .ant-menu-submenu > .ant-menu {
@@ -35,9 +35,36 @@
     .logo-img {
       display: inline-block;
       height: 150px;
-      border-radius: 50%;
+      border-radius: 20px;
       object-position: center;
       object-fit: cover;
     }
+  }
+  .bio {
+    text-align: center;
+    .name {
+      line-height: 1.3em;
+    }
+    .title {
+      margin-bottom: 10px;
+    }
+  }
+  .btn-group {
+    text-align: center;
+  }
+  .contact-btn {
+    font-size: 24px;
+    color: $text1;
+    display: inline-block;
+    margin: 0 7px;
+  }
+  p {
+    text-align: center;
+  }
+  .contact {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 15px 0;
   }
 }

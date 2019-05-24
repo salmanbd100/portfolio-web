@@ -1,39 +1,41 @@
 .single-project {
-    display: block;
+  display: block;
+//   box-shadow: 0px 0px 60px -25px rgba(0, 0, 0, 0.17);
+  transition: all 0.3s ease;
+  padding: 30px 15px;
+  margin-bottom: 16px;
+  text-align: center;
+  height: 200px;
+//   border-top: 1px solid #000;
+  border: 1px solid rgba($primary-color, .2);
+  &:hover {
     box-shadow: $shadow;
-    padding: 30px 15px;
-    margin-bottom: 16px;
-    text-align: center;
-    height: 200px;
-    border-top: 1px solid #000;
-    // border-bottom: 1px solid $primary-color;
-    .project-name {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 15px;
-        .logo {
-            height: 30px;
-            display: inline-block;
-            margin-right: 10px;
-        }
-        .name {
-
-        }
+    border: 1px solid rgba($primary-color, 0);
+  }
+  .project-name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    .logo {
+      height: 30px;
+      display: inline-block;
+      margin-right: 10px;
     }
-    .desc {
-        color: $text1;
-        line-height: 1.3;
-        font-size: 14px;
-        margin-bottom: 10px;
+  }
+  .desc {
+    color: $text1;
+    line-height: 1.3;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .contribution {
+    color: $text1;
+    line-height: 1.3;
+    font-size: 14px;
+    b {
+      font-weight: 400;
+      color: $title;
+      font-family: $font2;
     }
-    .contribution {
-        color: $text1;
-        line-height: 1.3;
-        font-size: 14px;
-        b {
-            font-weight: 400;
-            color: $title;
-            font-family: $font2;
-        }
-    }
+  }
 }
