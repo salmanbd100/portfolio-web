@@ -1,12 +1,10 @@
 .single-project {
   display: block;
-//   box-shadow: 0px 0px 60px -25px rgba(0, 0, 0, 0.17);
   transition: all 0.3s ease;
   padding: 30px 15px;
   margin-bottom: 16px;
   text-align: center;
-  height: 200px;
-//   border-top: 1px solid #000;
+  height: 220px;
   border: 1px solid rgba($primary-color, .2);
   &:hover {
     box-shadow: $shadow;

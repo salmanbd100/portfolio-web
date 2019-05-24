@@ -27,7 +27,7 @@ function Projects() {
             logo="assets/images/easyclap.jpg"
             link="https://www.easyclap.com/"
             description="Sass platform designed for art lovers and professionals"
-            contribution="100% sketch to react component conversion"
+            contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
@@ -44,8 +44,8 @@ function Projects() {
             // name="Pixel Store"
             logo="assets/images/pixelstore.png"
             link="http://salmanrahman.com/projects/pixel-store/"
-            description="EasyClap is a new place designed for art lovers and professionals"
-            contribution="100% sketch to react component conversion"
+            description="Pixel store is a multipurpose ecommerce template"
+            contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
@@ -53,8 +53,8 @@ function Projects() {
             name="Educare"
             logo="assets/images/educare.png"
             link="http://salmanrahman.com/projects/educare/#"
-            description="EasyClap is a new place designed for art lovers and professionals"
-            contribution="100% sketch to react component conversion"
+            description="Web templates for different kind of education institute"
+            contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
@@ -62,8 +62,8 @@ function Projects() {
             // name="Best Book"
             logo="assets/images/bestbook.png"
             link="http://salmanrahman.com/projects/bestbook/"
-            description="EasyClap is a new place designed for art lovers and professionals"
-            contribution="100% sketch to react component conversion"
+            description="E-book promotion landing page"
+            contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
@@ -71,26 +71,26 @@ function Projects() {
             name="Pixels"
             logo="assets/images/pixels.png"
             link="http://salmanrahman.com/projects/pixels/"
-            description="EasyClap is a new place designed for art lovers and professionals"
-            contribution="100% sketch to react component conversion"
+            description="The best way to showcase your app"
+            contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
-            // name="Pixels"
+            // name="Execution"
             logo="assets/images/execution.png"
             link="http://salmanrahman.com/projects/execution/"
-            description="EasyClap is a new place designed for art lovers and professionals"
-            contribution="100% sketch to react component conversion"
+            description="Execution App Landing & Product Showcase HTML5 Template"
+            contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
-            // name="Pixels"
+            // name="Bicycle"
             logo="assets/images/bicycle.png"
             link="http://salmanrahman.com/projects/bicycle/"
-            description="EasyClap is a new place designed for art lovers and professionals"
-            contribution="100% sketch to react component conversion"
+            description="Simple product Showcase"
+            contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
@@ -98,8 +98,8 @@ function Projects() {
             name="Zeplin"
             logo="assets/images/zeplin.png"
             link="http://salmanrahman.com/projects/apexis/apexis-template/04-home-zeplin.html"
-            description="EasyClap is a new place designed for art lovers and professionals"
-            contribution="100% sketch to react component conversion"
+            description="Zeplin re-design template"
+            contribution="Psd to html conversion with DOM manipulation"
           />
         </Col>
       </Row>

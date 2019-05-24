@@ -32,7 +32,7 @@ class Sidebar extends Component {
           <a className="contact-btn" href="https://www.linkedin.com/in/salmanbd/" target="_blank" rel="noopener noreferrer">
             <Icon type="linkedin" />
           </a>
-          <a className="contact-btn" href="https://www.linkedin.com/in/salmanbd/" target="_blank" rel="noopener noreferrer">
+          <a className="contact-btn" href="https://github.com/salmanbd100" target="_blank" rel="noopener noreferrer">
             <Icon type="github" />
           </a>
         </div>
