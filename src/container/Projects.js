@@ -32,9 +32,9 @@ function Projects() {
         </Col>
         <Col xs={24} md={12} xl={8} lg={12}>
           <SingleProject
-            name="Kutumbita"
+            name="Kinship Ai"
             logo="assets/images/kutumbita.png"
-            link="https://kutumbita.com/"
+            link="http://kinship.ai/"
             description="Sass platform for garments worker and manager"
             contribution="Work with react view layer and and get data from rest api"
           />

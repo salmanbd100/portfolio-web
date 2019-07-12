@@ -1,12 +1,12 @@
 import React from "react";
 import { Timeline, List, Icon } from "antd";
 import { TitleBlock } from "../components";
-const kutumbitaData = [
+const kinshipData = [
   "Pixel perfect psd to React component conversion.",
   "Using data from Rest api & manage local state with Redux.",
   "Fixing any UI related bug in admin dashboard."
 ];
-const easyclapData = [
+const mahdilData = [
   "Pixel perfect sketch to React component conversion.",
   "Using data from Rest api.",
   "Fixing any design related bug in existing project."
@@ -55,18 +55,18 @@ function WorkExprience() {
       <Timeline>
         <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
           <SingleExprience
-            link="https://kutumbita.com/"
-            companyName="Kutumbita"
+            link="http://kinship.ai/"
+            companyName="Kinship Ai"
             year="Feb 2019 - Present"
-            data={kutumbitaData}
+            data={kinshipData}
           />
         </Timeline.Item>
         <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
           <SingleExprience
-            link="https://www.easyclap.com/"
-            companyName="Easyclap"
+            link="https://www.mahdil.com/en/"
+            companyName="Maison Mahdil"
             year="Dec 2017 - Jan 2019"
-            data={easyclapData}
+            data={mahdilData}
           />
         </Timeline.Item>
         <Timeline.Item dot={<img src="assets/images/exprience.svg" style={{ height: "20px"}} alt="exprience icon" />}>
